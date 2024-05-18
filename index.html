@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Akses Wi-Fi | IKIP Siliwangi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="css/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <div class="container" aos="slide-up">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card flip-left">
+            <div class="card-body">
+              <div class="logo-container flip-up">
+                <img
+                  src="css/assets/img/logo1.png"
+                  alt="Logo 1"
+                  class="logo"
+                  data-aos="fade-up"
+                />
+                <p class="text-center mb-4">
+                  Portal Akses Nirkabel<br />
+                  <small>IKIP Siliwangi</small>
+                </p>
+                <!-- <div
+                  class="alert alert-danger p-1 px-3 text-small"
+                  role="alert"
+                  id="kalaugagal"
+                >
+                  <small
+                    >Permintaan gagal! Nomor Identitas atau token tidak
+                    sesuai</small
+                  >
+                </div>
+                <div
+                  class="alert alert-danger p-1 px-3 text-small"
+                  role="alert"
+                  id="belumbayar"
+                >
+                  <small
+                    >Permintaan gagal! Nomor Identitas Anda belum terdaftar pada
+                    semester ini. Silakan selesaikan administrasi heregistrasi
+                    terlebih dahulu.</small
+                  >
+                </div> -->
+              </div>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    placeholder="Nomor Identitas (NIM/NIDN)"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    placeholder="Token Akses"
+                  />
+                </div>
+                <div class="text-center mb-2">
+                  <a
+                    href="success.html"
+                    class="btn btn-sm btn-primary"
+                    id="tombolakses"
+                    >Gunakan Jaringan</a
+                  >
+                </div>
+              </form>
+              <!-- <div
+                class="alert alert-warning p-1 px-3 text-small"
+                role="alert"
+                id="kalaudiproses"
+              >
+                <small>Memproses permintaan...</small>
+              </div> -->
+              <!-- <div
+                class="alert alert-success p-1 px-3 text-small"
+                role="alert"
+                id="kalauberhasil"
+              >
+                <small>Berhasil tersambung Wi-Fi!</small>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      &copy; 2023 Bagian Pengembangan IT. Hak Cipta Dilindungi.
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
